@@ -21,7 +21,7 @@ initial begin
     b=5;
     alu_control=3'b000; //add
     #10; //wait for 10 time units before executing the next statement i.e 10ns
-    if(result == 15 && zero == 0) //check if the result is 15 and zero flag is 0    
+    if(result == 32'd15 && zero == 1'b0) //check if the result is 15 and zero flag is 0    
     $display("Add test passed: result = %d, zero = %b", result, zero); ///%d decimal display
     else
     $display("Add test failed: expected 15, got = %d, zero = %b", result, zero); //%b binary display
