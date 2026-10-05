@@ -1,6 +1,7 @@
     # Simulation build files
 sim/alu_sim
 sim/register_file_sim
+sim/pc_sim
 # Waveform files
 *.vcd 
 #*means here ignore all files with .vcd extension in any directory
