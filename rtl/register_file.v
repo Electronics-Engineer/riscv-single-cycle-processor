@@ -1,7 +1,7 @@
 module register_file(
     input clk,
-    input [4:0] rs1_addr, //5 bit reg which holds values as 2^5 = 32, address of 1st register
-    input [4:0] rs2_addr, //address of the 2nd register we want to read
+    input [4:0] rs1_addr, // 5 bit reg which holds values as 2^5 = 32, address of 1st register
+    input [4:0] rs2_addr, // address of the 2nd register we want to read
     input [4:0] rd_addr,
     input [31:0] write_data, //32 bit write variable, if its [0:31] means 31 registers
     input write_enable,
