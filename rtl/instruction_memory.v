@@ -4,8 +4,8 @@ module instruction_memory(
 );
     reg [31:0] memory [0:63]; //64 instruction words, each 32 bits wide
     //Load the instructions at the requested address so total capacity 64*32 = 2048 bits or 256 bytes
-    assign instruction = memory[address[7:2]]; //PC uses byte addresses (byte = 4) so each 32 bit instructions are 4 bytes apart,(0,4,8,12)
-    //ex program
+    assign instruction = memory[address[7:2]]; 
+    
     initial begin
         memory[0] = 32'h00A00093; // AddI x1, x0, 10
         memory[1] = 32'h01400113; // ADDI x2, x0, 20
