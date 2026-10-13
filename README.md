@@ -121,11 +121,3 @@ Full processor-level verification will be added after the modules are integrated
 3. Connect the modules into a single-cycle CPU.
 4. Execute a test program and verify register and memory results.
 5. Expand verification and document the final waveforms.
-
-## Project Scope
-
-This project is intended to develop practical skills in digital design, processor architecture, Verilog RTL development, simulation, and verification.
-
-## Author
-
-Developed as a hands-on processor design and digital hardware project.
